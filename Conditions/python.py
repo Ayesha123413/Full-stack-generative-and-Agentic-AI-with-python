@@ -5,3 +5,7 @@ if snack == "samosa" or snack == "cookie":
 
 else:
     print("Sorry! We don't have that snack.")
+
+
+#suggest price of chai based on size 
+
