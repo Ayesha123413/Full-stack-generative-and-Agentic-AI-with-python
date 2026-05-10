@@ -1,20 +1,21 @@
 
 
-# total = 0
+total = 0
 
 
-# # pure function does not manipulate any global value
-# def pure_function(x, y): 
-#     return x + y
+# pure function does not manipulate any global value
+def pure_function(x, y): 
+    return x + y
 
 
-# #impure function manipulates global value , suppose to be avoided and not recommended to use in programming
-# def impure_function(x):
-#     global total
-#     total += x
-#     return total
+#impure function manipulates global value , suppose to be avoided and not recommended to use in programming
+def impure_function(x):
+    global total
+    total += x
+    return total
 
 
+# recursive function
 
 def recursive_function(n):
     print(f"Recursion level: {n}")
