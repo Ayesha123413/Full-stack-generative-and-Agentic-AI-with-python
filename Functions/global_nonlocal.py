@@ -2,6 +2,7 @@
 def print_order():
     # global chai_type
     chai_type="Cardamom"
+    print
     def print_chai():
         nonlocal chai_type
         chai_type="Ginger"
